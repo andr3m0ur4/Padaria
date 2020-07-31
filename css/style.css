@@ -54,3 +54,72 @@ header .container {
     color: rgb(41, 41, 41);
     text-decoration: none;
 }
+
+section.banner {
+    height: 300px;
+    background-color: rgb(235, 235, 235);
+}
+
+section.banner .container {
+    align-items: center;
+}
+
+.banner-esquerda h1 {
+    color: rgb(142, 176, 55);
+    font-size: 48px;
+    font-family: 'Pacifico';
+    font-weight: lighter;
+}
+
+.banner-esquerda p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner-esquerda button {
+    color: white;
+    font-size: 20px;
+    background-color: rgb(218, 79, 73);
+    background-image: linear-gradient(rgb(238, 95, 91), rgb(189, 54, 47));
+    padding: 7px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.banner-direita img {
+    height: 300px;
+}
+
+main {
+    margin-bottom: 40px;
+}
+
+main .container {
+    flex-direction: column;
+}
+
+main .outros-produtos {
+    text-align: center;
+    line-height: 90px;
+    font-size: 36px;
+    height: 90px;
+}
+
+.fotos {
+    display: flex;
+}
+
+.fotos img {
+    width: calc(100% / 4);
+    padding: 0 10px;
+}
+
+footer {
+    background-color: rgb(18, 18, 18);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(180, 173, 173);
+}
